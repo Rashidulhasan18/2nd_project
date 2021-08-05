@@ -7,7 +7,8 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
  
 }
 /* players styles */
@@ -71,4 +72,32 @@ hr{
 .blog-author a{
     color: rgb(132, 0, 255);
     text-decoration: none;
+}
+/* course styles */
+.courses{
+    display: flex;
+    justify-content: center;
+}
+.course-thumbnail img{
+    width: 244px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+}
+.fa-star.filled{
+    color: rgb(255, 208, 0);
+}
+.fa-star.empty{
+    color: rgb(209, 209, 209);
+    margin-right: 10px;
+}
+.course-duration{
+    font-size: 18px;
+    background-color: rgb(255, 190, 199);
+    border-radius: 15px;
+    padding: 1px 5px;
+    margin-left: 15px;
 }
